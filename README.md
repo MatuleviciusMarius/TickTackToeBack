@@ -24,3 +24,13 @@ Get all moves
 ### http://localhost:8080/api/deleteAll
 
 Delete all moves
+
+##Docker commands :
+
+### Build docker image:
+
+docker build -t ticktacktoeback .
+
+### Run docker image:
+
+docker run -it -p 8080:8080 ticktacktoeback
