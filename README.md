@@ -25,8 +25,6 @@ Get all moves
 
 Delete all moves
 
-##Docker commands :
-
 ### Build docker image:
 
 docker build -t ticktacktoeback .
