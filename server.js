@@ -2,8 +2,12 @@ const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/connectDb');
 const bodyParser = require('body-parser');
+var cors = require('cors')
 
 const app = express();
+
+// Enable all cors requests
+app.use(cors());
 
 app.use(bodyParser.json());
 //Load config
